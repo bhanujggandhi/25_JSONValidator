@@ -1,0 +1,104 @@
+{
+  "_objectname": "_scoreplane",
+  "_sid": "_scoreboard",
+  "_slabel": "This is a game gamescoreboard",
+  "_IsHidden": "false",
+  "_enumcount": "1",
+  "_Is3DObject": {
+    "value": "false",
+    "HasChild": "false",
+    "shape": {
+      "type": "plane",
+      "dimension": {
+        "radii": "null",
+        "volumn": "null",
+        "length": "50",
+        "breadth": "0",
+        "height": "20"
+      }
+    },
+    "IsText": {
+      "value": "false",
+      "Is3D": "false"
+    },
+    "lighting": {
+      "CastShadow": "false",
+      "ReceiveShadow": "false",
+      "ContributeGlobalIlumination": "false"
+    }
+  },
+  "IsIlluminate": "false",
+  "Transform": {
+    "_initialpos": {
+      "#x": "30",
+      "#y": "30",
+      "#z": "0"
+    },
+    "_initialrotation": {
+      "#x": "0",
+      "#y": "0",
+      "#z": "0"
+    },
+    "_objectscale": {
+      "#x": "0",
+      "#y": "0",
+      "#z": "0"
+    },
+    "repeat": {
+      "distfactorx": "null",
+      "distfactory": "null",
+      "distfactorz": "null"
+    }
+  },
+  "Interaction": {
+    "XRGrabInteractable": "true",
+    "XRInteractionMask": {
+      "layer": "nothing/everything/custom"
+    },
+    "TrackPosition": "false",
+    "TrackRotation": "false",
+    "Throw_Detach": {
+      "value": "false",
+      "forcegravity": "true",
+      "velocity": "null",
+      "angularvelocity": "null"
+    },
+    "Smoothing": {
+      "value": "true",
+      "duration": "0.5 sec"
+    },
+    "attachtransform": {
+      "#rotate_x": "null",
+      "#rotate_y": "null",
+      "#rotate_z": "null",
+      "#pos_x": "null",
+      "#pos_y": "null",
+      "#pos_z": "null"
+    },
+    "XRRigidObject": {
+      "value": "true",
+      "mass": "5",
+      "dragfriction": "null",
+      "angulardrag": "null",
+      "Isgravityenable": "true",
+      "IsKinematic": "false",
+      "CanInterpolate": "false",
+      "CollisionPolling": "discreet/continous"
+    }
+  },
+  "_audio": {
+    "value": "true",
+    "type": "static/dynamic",
+    "src": "/path",
+    "volume": "10",
+    "PlayInloop": "false",
+    "IsSurround": "true",
+    "Dopplerlevel": "0.9",
+    "spread": "",
+    "mindist": "",
+    "maxdist": ""
+  },
+  "_timeline": "true",
+  "_Opttxt1": "Dimensions require review",
+  "@context_img_source": "_blank"
+}

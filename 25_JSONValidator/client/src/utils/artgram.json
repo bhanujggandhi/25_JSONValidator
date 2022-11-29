@@ -1,0 +1,172 @@
+{
+  "_objectname": {
+    "req": "mandatory",
+    "typeof": "string",
+    "%comment%": "Name of the object"
+  },
+  "_sid": {
+    "req": "mandatory",
+    "typeof": "string",
+    "%comment%": "unique id"
+  },
+  "_slabel": {
+    "req": "mandatory",
+    "typeof": "string",
+    "%comment%": "Label of the article"
+  },
+  "_IsHidden": {
+    "req": "mandatory",
+    "typeof": "boolean",
+    "%comment%": "hidden?"
+  },
+  "_enumcount": {
+    "req": "mandatory",
+    "typeof": "number",
+    "%comment%": "count"
+  },
+  "_Is3DObject": {
+    "req": "mandatory",
+    "typeof": "object",
+    "%comment%": "3D object description",
+    "k": {
+      "value": {
+        "req": "mandatory",
+        "typeof": "boolean",
+        "%comment%": "value"
+      },
+
+      "HasChild": {
+        "req": "mandatory",
+        "typeof": "boolean",
+        "%comment%": "has child?"
+      },
+      "shape": {
+        "req": "mandatory",
+        "typeof": "object",
+        "%comment%": "shape description",
+        "k": {
+          "type": {
+            "req": "mandatory",
+            "typeof": "string",
+            "%comment%": "type of the object"
+          },
+          "dimension": {
+            "req": "mandatory",
+            "typeof": "object",
+            "%comment%": "Name of the Scene",
+            "k": {
+              "radii": {
+                "req": "mandatory",
+                "typeof": "string",
+                "%comment%": "Name of the Scene"
+              },
+              "volumn": {
+                "req": "mandatory",
+                "typeof": "string",
+                "%comment%": "Name of the Scene"
+              },
+              "length": {
+                "req": "mandatory",
+                "typeof": "number",
+                "%comment%": "Name of the Scene"
+              },
+              "breadth": {
+                "req": "mandatory",
+                "typeof": "number",
+                "%comment%": "Name of the Scene"
+              },
+              "height": {
+                "req": "mandatory",
+                "typeof": "number",
+                "%comment%": "Name of the Scene"
+              }
+            }
+          }
+        }
+      }
+    },
+    "IsText": {
+      "value": "false",
+      "Is3D": "false"
+    },
+    "lighting": {
+      "CastShadow": "false",
+      "ReceiveShadow": "false",
+      "ContributeGlobalIlumination": "false"
+    }
+  },
+  "IsIlluminate": "false",
+  "Transform": {
+    "_initialpos": {
+      "#x": "30",
+      "#y": "30",
+      "#z": "0"
+    },
+    "_initialrotation": {
+      "#x": "0",
+      "#y": "0",
+      "#z": "0"
+    },
+    "_objectscale": {
+      "#x": "0",
+      "#y": "0",
+      "#z": "0"
+    },
+    "repeat": {
+      "distfactorx": "null",
+      "distfactory": "null",
+      "distfactorz": "null"
+    }
+  },
+  "Interaction": {
+    "XRGrabInteractable": "true",
+    "XRInteractionMask": {
+      "layer": "nothing/everything/custom"
+    },
+    "TrackPosition": "false",
+    "TrackRotation": "false",
+    "Throw_Detach": {
+      "value": "false",
+      "forcegravity": "true",
+      "velocity": "null",
+      "angularvelocity": "null"
+    },
+    "Smoothing": {
+      "value": "true",
+      "duration": "0.5 sec"
+    },
+    "attachtransform": {
+      "#rotate_x": "null",
+      "#rotate_y": "null",
+      "#rotate_z": "null",
+      "#pos_x": "null",
+      "#pos_y": "null",
+      "#pos_z": "null"
+    },
+    "XRRigidObject": {
+      "value": "true",
+      "mass": "5",
+      "dragfriction": "null",
+      "angulardrag": "null",
+      "Isgravityenable": "true",
+      "IsKinematic": "false",
+      "CanInterpolate": "false",
+      "CollisionPolling": "discreet/continous"
+    }
+  },
+  "_audio": {
+    "value": "true",
+    "type": "static/dynamic",
+    "src": "/path",
+    "volume": "10",
+    "PlayInloop": "false",
+    "IsSurround": "true",
+    "Dopplerlevel": "0.9",
+    "spread": "",
+    "mindist": "",
+    "maxdist": ""
+  },
+  "_timeline": "true",
+  "_Opttxt1": "Dimensions require review",
+  "@context_img_source": "_blank"
+}
